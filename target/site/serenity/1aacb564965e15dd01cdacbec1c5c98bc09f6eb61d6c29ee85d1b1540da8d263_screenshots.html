@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="8a1c9aadcf18f5c51835834fa944304a4290507bbb8b5afe7db728b79a8e691a.html">Utest Page</a></span>
+                > <span class="truncate-60"><a
+                    href="1aacb564965e15dd01cdacbec1c5c98bc09f6eb61d6c29ee85d1b1540da8d263.html">register on the utest page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-12-2021 22:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Utest Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a developer, I want to register on the utest page to work on software tests.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e0e727b5b6644c8f3cb483e99b843c02eb2334fec16c0b22bee3f4c672b65ca7.html">Scenario
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="53069ead7b0df7bb2fd55dc26d8afc2d3681a46615d2915b8acdf6ec33d3f0f8.html">
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">register on the utest page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Given than luis wants to register on the utest page" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Luis open up" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" luis opens the Utest page" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Luis open up (completed)" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Given than luis wants to register on the utest page (completed)" width="1366"/>
+                <img src="dfbb3f119e4d9314b08a166bac7b9ec6d0823448fc5f064a38ebe809b06624da.png" title=" When you access the utest page
+| strFirstName | strLastName | strEmailAddress | strMonthBirth | intDayBirth | intYearBirth | strCity | strPostalCode | strPassword | strConfirmPassword | strMessage |
+| Juan | Perez | jperez@gmail.com | April | 6 | 1992 | Las Lomas | 507 | Choucair2021* | Choucair2021* | First, please check your email inbox |" width="1366"/>
+                <img src="dfbb3f119e4d9314b08a166bac7b9ec6d0823448fc5f064a38ebe809b06624da.png" title=" Luis join today" width="1366"/>
+                <img src="dfbb3f119e4d9314b08a166bac7b9ec6d0823448fc5f064a38ebe809b06624da.png" title=" luis clicks on button that shows the form to register" width="1366"/>
+                <img src="7a30a25c6b0414773fe1c2cb92cdd595a8387d3db4cbd8993dd0c5e6ae92c3b3.png" title=" luis enters 'Juan' into where do we write the First name" width="1366"/>
+                <img src="04e7e0a55ae66e0cc6bc7e41750332b2e81eadcaa47be79032a3e360fbc933ca.png" title=" luis enters 'Perez' into where do we write the Last name" width="1366"/>
+                <img src="f55e660099d575f47824de7a13ce9a750a7e1ad0d2146175815c2c6ec1e485c1.png" title=" luis enters 'jperez@gmail.com' into where do we write the Email" width="1366"/>
+                <img src="88ac126ac9d5d882462fca960ecc76a5a8e4e01feb82c1e54873278d7bda4a68.png" title=" luis select April on where do we write the Birth Month" width="1366"/>
+                <img src="6af8c3955c0701f77eafeba0a578565a61313947b1dbe90b333f3fafd09ff4af.png" title=" luis select 6 on where do we write the Birth Day" width="1366"/>
+                <img src="e79fbe18739e9ad5ef6b5d81d546b28b441f206d2b6233cac2e66b73d8dff582.png" title=" luis select 1992 on where do we write the Birth Year" width="1366"/>
+                <img src="bbbe697583730200ccff77b1f679a6bc68232cf3a0d75f4d26bd60762bec944b.png" title=" luis clicks on select a language" width="1366"/>
+                <img src="68403cd3c04f95451165d38b825feec7268abc16f197f54cf9c50a44543727f8.png" title=" luis clicks on button to confirm register" width="1366"/>
+                <img src="68403cd3c04f95451165d38b825feec7268abc16f197f54cf9c50a44543727f8.png" title=" Luis join today (completed)" width="1366"/>
+                <img src="93aaca30ab985ddf801cc5c8b4adc0b5feacad07471774a67f459e6f0ca595f0.png" title=" Luis add address" width="1366"/>
+                <img src="93aaca30ab985ddf801cc5c8b4adc0b5feacad07471774a67f459e6f0ca595f0.png" title=" luis clicks on where do we write the City" width="1366"/>
+                <img src="93e994c71e0369f1f2d0bd2fd3b698d76ac61663bf4368159baecc33fb303be9.png" title=" luis enters 'Las Lomas' into where do we write the City" width="1366"/>
+                <img src="8e6998aaa5b9561f3de25d4b597ad2be838a5c18ae9f107e5b8c0b4716dd6c27.png" title=" luis enters '507' into where do we write the City" width="1366"/>
+                <img src="cadb6e3f44e0279c8925d4df44c2aa55cf207eabfeb81fa32e548aa320fe6d5c.png" title=" luis clicks on select to choose a country" width="1366"/>
+                <img src="6963272fd0418f8e9eac84dd208156afe7b35b76f34a53b4e227aa9048a98a9f.png" title=" luis clicks on button to continue with the registration" width="1366"/>
+                <img src="6963272fd0418f8e9eac84dd208156afe7b35b76f34a53b4e227aa9048a98a9f.png" title=" Luis add address (completed)" width="1366"/>
+                <img src="8928e43964c9dae997c57281bc77da0daffc987217e50242e4ae43b5b666fdc7.png" title=" Luis devices" width="1366"/>
+                <img src="8928e43964c9dae997c57281bc77da0daffc987217e50242e4ae43b5b666fdc7.png" title=" luis clicks on select your computer" width="1366"/>
+                <img src="42d7ca4ce815c593ed21044dc04c6184b239bfca219f17356266e6c628582aa6.png" title=" luis clicks on select version" width="1366"/>
+                <img src="fb88a6505189553fe6f144c6c070dc51b005c0320701de61160029bf9f4f4263.png" title=" luis clicks on select language" width="1366"/>
+                <img src="afd3532e93805206c539f1f82f9643c10221ef9ddb3002c4565f80ee1b390b62.png" title=" luis clicks on select your moblie device" width="1366"/>
+                <img src="e0295386c8ca9af2b9c1da3487d3178ecd26874e41ef7b68ed22a59162067a5a.png" title=" luis clicks on select model" width="1366"/>
+                <img src="f8320e6791856b45fa0218ff8dd0c366cb0a51c85980f4309a6a11c7af1e8710.png" title=" luis clicks on select operating system" width="1366"/>
+                <img src="bc73690a5acf50fc5971f7189cfdd2b5e81505e25d5c55920310ed1be96c9eef.png" title=" luis clicks on button to continue with the last registration" width="1366"/>
+                <img src="dfc366ac29c76f24847e9ba8ad7f1a41b0fd15294324fc16929fda123d5ac53a.png" title=" Luis devices (completed)" width="1366"/>
+                <img src="dfc366ac29c76f24847e9ba8ad7f1a41b0fd15294324fc16929fda123d5ac53a.png" title=" Luis last sep" width="1366"/>
+                <img src="dfc366ac29c76f24847e9ba8ad7f1a41b0fd15294324fc16929fda123d5ac53a.png" title=" luis clicks on where do we write the password" width="1366"/>
+                <img src="ef124f37ba76a8736f5045932dc170d841830ed7a1652630859a73322042e6e0.png" title=" luis enters 'Choucair2021*' into where do we write the password" width="1366"/>
+                <img src="7aa28cde16f0a63ce749ebc81d8948e2369fb074a9f9e9e9885cf8ef4992efa4.png" title=" luis enters 'Choucair2021*' into where do we write the confirm password" width="1366"/>
+                <img src="eaf58580ae2c39c6845308c5295e3514aa9f7b08b3d456eb09ddcb63e0ea1982.png" title=" luis clicks on check to stay informed by mail" width="1366"/>
+                <img src="af8bf46c6a200579ff1ef1dbd2b33c4abb8b934c6f9311f79b94feedfa88b8be.png" title=" luis clicks on check the terms of condition" width="1366"/>
+                <img src="4704d5438cd1f29761df0af8ad34687cce95fab4c9b95ce82cf1dac30e058a4c.png" title=" luis clicks on check the privacy &amp; security policy" width="1366"/>
+                <img src="f05ac790b06321115ce516d7b824f5ada7449968d3bcc12fdfdce46d7461b79e.png" title=" luis clicks on button to complete setup" width="1366"/>
+                <img src="f05ac790b06321115ce516d7b824f5ada7449968d3bcc12fdfdce46d7461b79e.png" title=" Luis last sep (completed)" width="1366"/>
+                <img src="39a78bc2e68f7679a4420c53795ee0be7e6faa8537e204c842a72c2e41ba9df7.png" title=" When you access the utest page
+| strFirstName | strLastName | strEmailAddress | strMonthBirth | intDayBirth | intYearBirth | strCity | strPostalCode | strPassword | strConfirmPassword | strMessage |
+| Juan | Perez | jperez@gmail.com | April | 6 | 1992 | Las Lomas | 507 | Choucair2021* | Choucair2021* | First, please check your email inbox | (completed)" width="1366"/>
+                <img src="82bfc788207daf7a647e0d87fe2806abeaae8d6b39ef795446aa73f3ec7c57e9.png" title=" Then create a new user on the utest page" width="1366"/>
+                <img src="82bfc788207daf7a647e0d87fe2806abeaae8d6b39ef795446aa73f3ec7c57e9.png" title=" Then create user" width="1366"/>
+                <img src="82bfc788207daf7a647e0d87fe2806abeaae8d6b39ef795446aa73f3ec7c57e9.png" title=" Then create a new user on the utest page (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
