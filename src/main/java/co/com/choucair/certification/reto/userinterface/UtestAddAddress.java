@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 public class UtestAddAddress extends PageObject {
 
     public static final Target INPUT_CITY = Target.the("where do we write the City").located(By.id("city"));
+
     public static final Target INPUT_POSTAL_CODE = Target.the("where do we write the City").located(By.id("zip"));
 
     public static final Target SELECT_COUNTRY_1 = Target.the("select to choose a country").located(By.xpath("//div[@aria-label='Select a country']"));

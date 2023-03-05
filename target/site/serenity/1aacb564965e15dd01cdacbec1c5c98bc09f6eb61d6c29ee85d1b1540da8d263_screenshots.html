@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-12-2021 22:43</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-03-2023 14:33</span>
     <br style="clear:left"/>
 </div>
 
@@ -185,9 +185,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">register on the utest page
+                                <span class="error-color">register on the utest page
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -204,58 +204,98 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: no such element: Unable to locate element: {'method':'xpath','selector':'//p[@class='welcome-lead']/b[contains(text(),'First, please check your email inbox')]'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.choucair.certification.reto.stepdefinitions.ChoucairAcademyStepDefinitions.createANewUserOnTheUtestPage(ChoucairAcademyStepDefinitions.java:41)<br />✽.create a new user on the utest page(src/test/resources/features/academyChoucair.feature:14)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7633794217563758396.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Given than luis wants to register on the utest page" width="1366"/>
-                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Luis open up" width="1366"/>
-                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" luis opens the Utest page" width="1366"/>
-                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Luis open up (completed)" width="1366"/>
-                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Given than luis wants to register on the utest page (completed)" width="1366"/>
-                <img src="dfbb3f119e4d9314b08a166bac7b9ec6d0823448fc5f064a38ebe809b06624da.png" title=" When you access the utest page
+                <img src="961c5379ab44f57f4ae2eb84ee88edc0ae7f5274581ad4883f3c99a1bc7317be.png" title=" Given than luis wants to register on the utest page" width="1366"/>
+                <img src="961c5379ab44f57f4ae2eb84ee88edc0ae7f5274581ad4883f3c99a1bc7317be.png" title=" Luis open up" width="1366"/>
+                <img src="961c5379ab44f57f4ae2eb84ee88edc0ae7f5274581ad4883f3c99a1bc7317be.png" title=" luis opens the Utest page" width="1366"/>
+                <img src="7ac29bac7f4f72f6c3b4db8bd42fbbe7fe61913ee2ca7c6e52ffd009bec097e1.png" title=" Luis open up (completed)" width="1366"/>
+                <img src="7ac29bac7f4f72f6c3b4db8bd42fbbe7fe61913ee2ca7c6e52ffd009bec097e1.png" title=" Given than luis wants to register on the utest page (completed)" width="1366"/>
+                <img src="bbd543564759e7f4683ac40fc9a4a619e7e173d0eeb0ce2ca684523bc8b0ee7e.png" title=" When you access the utest page
 | strFirstName | strLastName | strEmailAddress | strMonthBirth | intDayBirth | intYearBirth | strCity | strPostalCode | strPassword | strConfirmPassword | strMessage |
-| Juan | Perez | jperez@gmail.com | April | 6 | 1992 | Las Lomas | 507 | Choucair2021* | Choucair2021* | First, please check your email inbox |" width="1366"/>
-                <img src="dfbb3f119e4d9314b08a166bac7b9ec6d0823448fc5f064a38ebe809b06624da.png" title=" Luis join today" width="1366"/>
-                <img src="dfbb3f119e4d9314b08a166bac7b9ec6d0823448fc5f064a38ebe809b06624da.png" title=" luis clicks on button that shows the form to register" width="1366"/>
-                <img src="7a30a25c6b0414773fe1c2cb92cdd595a8387d3db4cbd8993dd0c5e6ae92c3b3.png" title=" luis enters 'Juan' into where do we write the First name" width="1366"/>
-                <img src="04e7e0a55ae66e0cc6bc7e41750332b2e81eadcaa47be79032a3e360fbc933ca.png" title=" luis enters 'Perez' into where do we write the Last name" width="1366"/>
-                <img src="f55e660099d575f47824de7a13ce9a750a7e1ad0d2146175815c2c6ec1e485c1.png" title=" luis enters 'jperez@gmail.com' into where do we write the Email" width="1366"/>
-                <img src="88ac126ac9d5d882462fca960ecc76a5a8e4e01feb82c1e54873278d7bda4a68.png" title=" luis select April on where do we write the Birth Month" width="1366"/>
-                <img src="6af8c3955c0701f77eafeba0a578565a61313947b1dbe90b333f3fafd09ff4af.png" title=" luis select 6 on where do we write the Birth Day" width="1366"/>
-                <img src="e79fbe18739e9ad5ef6b5d81d546b28b441f206d2b6233cac2e66b73d8dff582.png" title=" luis select 1992 on where do we write the Birth Year" width="1366"/>
-                <img src="bbbe697583730200ccff77b1f679a6bc68232cf3a0d75f4d26bd60762bec944b.png" title=" luis clicks on select a language" width="1366"/>
-                <img src="68403cd3c04f95451165d38b825feec7268abc16f197f54cf9c50a44543727f8.png" title=" luis clicks on button to confirm register" width="1366"/>
-                <img src="68403cd3c04f95451165d38b825feec7268abc16f197f54cf9c50a44543727f8.png" title=" Luis join today (completed)" width="1366"/>
-                <img src="93aaca30ab985ddf801cc5c8b4adc0b5feacad07471774a67f459e6f0ca595f0.png" title=" Luis add address" width="1366"/>
-                <img src="93aaca30ab985ddf801cc5c8b4adc0b5feacad07471774a67f459e6f0ca595f0.png" title=" luis clicks on where do we write the City" width="1366"/>
-                <img src="93e994c71e0369f1f2d0bd2fd3b698d76ac61663bf4368159baecc33fb303be9.png" title=" luis enters 'Las Lomas' into where do we write the City" width="1366"/>
-                <img src="8e6998aaa5b9561f3de25d4b597ad2be838a5c18ae9f107e5b8c0b4716dd6c27.png" title=" luis enters '507' into where do we write the City" width="1366"/>
-                <img src="cadb6e3f44e0279c8925d4df44c2aa55cf207eabfeb81fa32e548aa320fe6d5c.png" title=" luis clicks on select to choose a country" width="1366"/>
-                <img src="6963272fd0418f8e9eac84dd208156afe7b35b76f34a53b4e227aa9048a98a9f.png" title=" luis clicks on button to continue with the registration" width="1366"/>
-                <img src="6963272fd0418f8e9eac84dd208156afe7b35b76f34a53b4e227aa9048a98a9f.png" title=" Luis add address (completed)" width="1366"/>
-                <img src="8928e43964c9dae997c57281bc77da0daffc987217e50242e4ae43b5b666fdc7.png" title=" Luis devices" width="1366"/>
-                <img src="8928e43964c9dae997c57281bc77da0daffc987217e50242e4ae43b5b666fdc7.png" title=" luis clicks on select your computer" width="1366"/>
-                <img src="42d7ca4ce815c593ed21044dc04c6184b239bfca219f17356266e6c628582aa6.png" title=" luis clicks on select version" width="1366"/>
-                <img src="fb88a6505189553fe6f144c6c070dc51b005c0320701de61160029bf9f4f4263.png" title=" luis clicks on select language" width="1366"/>
-                <img src="afd3532e93805206c539f1f82f9643c10221ef9ddb3002c4565f80ee1b390b62.png" title=" luis clicks on select your moblie device" width="1366"/>
-                <img src="e0295386c8ca9af2b9c1da3487d3178ecd26874e41ef7b68ed22a59162067a5a.png" title=" luis clicks on select model" width="1366"/>
-                <img src="f8320e6791856b45fa0218ff8dd0c366cb0a51c85980f4309a6a11c7af1e8710.png" title=" luis clicks on select operating system" width="1366"/>
-                <img src="bc73690a5acf50fc5971f7189cfdd2b5e81505e25d5c55920310ed1be96c9eef.png" title=" luis clicks on button to continue with the last registration" width="1366"/>
-                <img src="dfc366ac29c76f24847e9ba8ad7f1a41b0fd15294324fc16929fda123d5ac53a.png" title=" Luis devices (completed)" width="1366"/>
-                <img src="dfc366ac29c76f24847e9ba8ad7f1a41b0fd15294324fc16929fda123d5ac53a.png" title=" Luis last sep" width="1366"/>
-                <img src="dfc366ac29c76f24847e9ba8ad7f1a41b0fd15294324fc16929fda123d5ac53a.png" title=" luis clicks on where do we write the password" width="1366"/>
-                <img src="ef124f37ba76a8736f5045932dc170d841830ed7a1652630859a73322042e6e0.png" title=" luis enters 'Choucair2021*' into where do we write the password" width="1366"/>
-                <img src="7aa28cde16f0a63ce749ebc81d8948e2369fb074a9f9e9e9885cf8ef4992efa4.png" title=" luis enters 'Choucair2021*' into where do we write the confirm password" width="1366"/>
-                <img src="eaf58580ae2c39c6845308c5295e3514aa9f7b08b3d456eb09ddcb63e0ea1982.png" title=" luis clicks on check to stay informed by mail" width="1366"/>
-                <img src="af8bf46c6a200579ff1ef1dbd2b33c4abb8b934c6f9311f79b94feedfa88b8be.png" title=" luis clicks on check the terms of condition" width="1366"/>
-                <img src="4704d5438cd1f29761df0af8ad34687cce95fab4c9b95ce82cf1dac30e058a4c.png" title=" luis clicks on check the privacy &amp; security policy" width="1366"/>
-                <img src="f05ac790b06321115ce516d7b824f5ada7449968d3bcc12fdfdce46d7461b79e.png" title=" luis clicks on button to complete setup" width="1366"/>
-                <img src="f05ac790b06321115ce516d7b824f5ada7449968d3bcc12fdfdce46d7461b79e.png" title=" Luis last sep (completed)" width="1366"/>
-                <img src="39a78bc2e68f7679a4420c53795ee0be7e6faa8537e204c842a72c2e41ba9df7.png" title=" When you access the utest page
+| Frederick | Starck | ricki@gmail.com | April | 6 | 1992 | Las Lomas | 507 | Choucair2021* | Choucair2021* | First, please check your email inbox |" width="1366"/>
+                <img src="bbd543564759e7f4683ac40fc9a4a619e7e173d0eeb0ce2ca684523bc8b0ee7e.png" title=" Luis join today" width="1366"/>
+                <img src="bbd543564759e7f4683ac40fc9a4a619e7e173d0eeb0ce2ca684523bc8b0ee7e.png" title=" luis clicks on button that shows the form to register" width="1366"/>
+                <img src="d50856aed666665e7f8b6659f9ca035fbdd9508901bd69ddb32c25b97918e096.png" title=" luis enters 'Frederick' into where do we write the First name" width="1366"/>
+                <img src="fc26b8fc7fbfca87c10225e0ea983596c5e78285470f8fa6414926e01f82f77f.png" title=" luis enters 'Starck' into where do we write the Last name" width="1366"/>
+                <img src="aa213f20e0f71ad11c07784d522cdc9a577897c685e0766f36ee9cecf0fc7972.png" title=" luis enters 'ricki@gmail.com' into where do we write the Email" width="1366"/>
+                <img src="65c1af96ee9e01e07ce82a2c51cbcdbb416939964351edfba820be47a3710a55.png" title=" luis select April on where do we write the Birth Month" width="1366"/>
+                <img src="d8688e71d019760cfdecdc1a6328df769b9de0ab723a5ed608014024cf0116e3.png" title=" luis select 6 on where do we write the Birth Day" width="1366"/>
+                <img src="a2cb8898fa3df6fe2b0ac7673368c056087a9ee59e97f6a1a3b383cfd72c106c.png" title=" luis select 1992 on where do we write the Birth Year" width="1366"/>
+                <img src="6389c39e002ff9dbb99c96085331ce16f18612acb2e4603afa92c71708eb2c4c.png" title=" luis clicks on select a language" width="1366"/>
+                <img src="bb22bd48ba9e33182f7472df4784fcd70d67fe81ffa251ce1dc7eb86384fa352.png" title=" luis clicks on button to confirm register" width="1366"/>
+                <img src="bb22bd48ba9e33182f7472df4784fcd70d67fe81ffa251ce1dc7eb86384fa352.png" title=" Luis join today (completed)" width="1366"/>
+                <img src="9eb8c6131748e6888b2543218ad274e6f9f7a4041377550c5008878626c8d8a7.png" title=" Luis add address" width="1366"/>
+                <img src="9eb8c6131748e6888b2543218ad274e6f9f7a4041377550c5008878626c8d8a7.png" title=" luis clicks on where do we write the City" width="1366"/>
+                <img src="19111247940669d1e26be93c78f887d863461208b4fbc1670a371f20194b30b5.png" title=" luis enters 'Las Lomas' into where do we write the City" width="1366"/>
+                <img src="6d05c891021861da3682442b7a1ccf22e57be638c0a8c9916b62e3d6ed9fc258.png" title=" luis types 'ARROW_DOWN' in where do we write the City" width="1366"/>
+                <img src="d0f5d15e1634b9c3a98358bd4530b665b2eee9504a7a6ccfe6ea6ef2dde2e2b7.png" title=" luis types 'ENTER' in where do we write the City" width="1366"/>
+                <img src="0c456f450b148cfb4cf9d20b1a9ff8139831e6e6bffd79b62c85852c18a080e3.png" title=" luis enters '507' into where do we write the City" width="1366"/>
+                <img src="01ce775342cc089c7c1f1196a85d3e792e3701cc8ae35b8f1a27602c1a49c520.png" title=" luis clicks on select to choose a country" width="1366"/>
+                <img src="31c5766717d3b5e9db95d446f20703645380e5f70d781d9b93e210c3ca1d3ffb.png" title=" luis clicks on button to continue with the registration" width="1366"/>
+                <img src="31c5766717d3b5e9db95d446f20703645380e5f70d781d9b93e210c3ca1d3ffb.png" title=" Luis add address (completed)" width="1366"/>
+                <img src="1aebff8c8d18ec9b200e626a8d7481ec7441a49affda9ad9dafbb38becaaa361.png" title=" Luis devices" width="1366"/>
+                <img src="1aebff8c8d18ec9b200e626a8d7481ec7441a49affda9ad9dafbb38becaaa361.png" title=" luis clicks on select your computer" width="1366"/>
+                <img src="8a853d8ee5aaa9c0af08959ca4a536481d8d6359e490bc76c09e15a078ca32b0.png" title=" luis clicks on select version" width="1366"/>
+                <img src="d36c26f774a2b4ade3fab8923bbd16c14e5f47acfb85f2352aa02157404b3e93.png" title=" luis clicks on select language" width="1366"/>
+                <img src="078eecf44629735af6daf8b58649f5a8ee765b1c8518d47931c3315f9b6652dc.png" title=" luis clicks on select your moblie device" width="1366"/>
+                <img src="06f5095125332dc08b8992176e783a68767e5a1ec3e4a2718ec2f17b30082259.png" title=" luis clicks on select model" width="1366"/>
+                <img src="cf8efbe9bc09f9ec6f62c3bbf455006c8339882b14a48bda6ff0a8c6f88b9524.png" title=" luis clicks on select operating system" width="1366"/>
+                <img src="b7350a90f3ae0474befbd18b38a3f3c8d9c25ff44304696fafcc760eb1acdecf.png" title=" luis clicks on button to continue with the last registration" width="1366"/>
+                <img src="94801a4148471e0a7e1e14386c86b0f4b1ee9e39bb8d3517a7bc147dfdc6fa49.png" title=" Luis devices (completed)" width="1366"/>
+                <img src="059ebbad677524ea765f7ecd71decd816afa515de1406e6db99b9118faf7d211.png" title=" Luis last sep" width="1366"/>
+                <img src="059ebbad677524ea765f7ecd71decd816afa515de1406e6db99b9118faf7d211.png" title=" luis clicks on where do we write the password" width="1366"/>
+                <img src="2449f732644e69cb5d52770b0d2de03e58b9ca3622f6d068059b0e532c3a4961.png" title=" luis enters 'Choucair2021*' into where do we write the password" width="1366"/>
+                <img src="273531e5992a5ca2cd317621e90309defb31803e80c58ba372066dd266bfd89d.png" title=" luis enters 'Choucair2021*' into where do we write the confirm password" width="1366"/>
+                <img src="b755dbe5efe2f0add7b8fc80bffabf7b0b08ba2ac68aef26582c31b02bd2cdce.png" title=" luis clicks on check to stay informed by mail" width="1366"/>
+                <img src="b59b21f5b195c6742219aedfd50f704266a02425bc4be12737d1e30a3cf1d5ad.png" title=" luis clicks on check the terms of condition" width="1366"/>
+                <img src="ef9cad85a03d9194cea27b73e7f41e3fcb5dd9613bc72d5ceb7d7b5760765349.png" title=" luis clicks on check the privacy &amp; security policy" width="1366"/>
+                <img src="eb0284c21b920b07c3a9fcab050dfdddfa36dd32e79397409499b7d873d6f0be.png" title=" luis clicks on button to complete setup" width="1366"/>
+                <img src="eb0284c21b920b07c3a9fcab050dfdddfa36dd32e79397409499b7d873d6f0be.png" title=" Luis last sep (completed)" width="1366"/>
+                <img src="d1433d32b1e127099e5a65e5cb058a05baca278fda51f974ad19470dad611816.png" title=" When you access the utest page
 | strFirstName | strLastName | strEmailAddress | strMonthBirth | intDayBirth | intYearBirth | strCity | strPostalCode | strPassword | strConfirmPassword | strMessage |
-| Juan | Perez | jperez@gmail.com | April | 6 | 1992 | Las Lomas | 507 | Choucair2021* | Choucair2021* | First, please check your email inbox | (completed)" width="1366"/>
-                <img src="82bfc788207daf7a647e0d87fe2806abeaae8d6b39ef795446aa73f3ec7c57e9.png" title=" Then create a new user on the utest page" width="1366"/>
-                <img src="82bfc788207daf7a647e0d87fe2806abeaae8d6b39ef795446aa73f3ec7c57e9.png" title=" Then create user" width="1366"/>
-                <img src="82bfc788207daf7a647e0d87fe2806abeaae8d6b39ef795446aa73f3ec7c57e9.png" title=" Then create a new user on the utest page (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+| Frederick | Starck | ricki@gmail.com | April | 6 | 1992 | Las Lomas | 507 | Choucair2021* | Choucair2021* | First, please check your email inbox | (completed)" width="1366"/>
+                <img src="77e41406d1ff08451ec05a6897489d9fb9dea5c71a08fc4f10d5cd26f6968321.png" title=" Then create a new user on the utest page" width="1366"/>
+                <img src="77e41406d1ff08451ec05a6897489d9fb9dea5c71a08fc4f10d5cd26f6968321.png" title=" Then create user: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
